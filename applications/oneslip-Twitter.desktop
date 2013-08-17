@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Name=Twitter
+Exec=oneslip http://twitter.com 1000x600 Twitter
+Terminal=false
+Type=Application
+Icon=twitter
+Categories=Application;Network;

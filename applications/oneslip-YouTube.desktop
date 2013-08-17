@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Name=YouTube
+Exec=oneslip http://youtube.com 1000x600 YouTube
+Terminal=false
+Type=Application
+Icon=youtube
+Categories=Application;AudioVideo;

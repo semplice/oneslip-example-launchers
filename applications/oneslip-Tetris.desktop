@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Name=Tetris
+Exec=oneslip http://htmltetris.com 500x600 Tetris
+Terminal=false
+Type=Application
+Icon=/etc/skel/.oneslip/favicons/htmltetris.com.png
+Categories=Application;Game;

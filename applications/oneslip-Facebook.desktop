@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Name=Facebook
+Exec=oneslip http://facebook.com 1000x600 Facebook
+Terminal=false
+Type=Application
+Icon=facebook
+Categories=Application;Network;

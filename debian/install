@@ -1,0 +1,2 @@
+applications/* /etc/skel/.local/share/applications
+favicons/* /etc/skel/.oneslip/favicons

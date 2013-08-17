@@ -1,0 +1,20 @@
+Source: oneslip-example-launchers
+Section: web
+Priority: optional
+Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.4
+Vcs-Bzr: https://github.com/semplice/oneslip-example-launchers.git
+Vcs-Browser: https://github.com/semplice/oneslip-example-launchers
+
+Package: oneslip-example-launchers
+Architecture: all
+Depends: ${misc:Depends}, oneslip 
+Description: Example launchers for oneslip
+ This package ships some example launchers for oneslip:
+ - YouTube
+ - Tetris
+ - Twitter
+ - Facebook
+ .
+ The launchers are copied at every new user creation.
