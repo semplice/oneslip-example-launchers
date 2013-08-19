@@ -22,8 +22,12 @@ remove_for_real() {
 	app="oneslip-$1.desktop"
 	favicon="$2.png"
 	
-	[ -e "/etc/skel/.local/share/applications/$app" ] && rm /etc/skel/.local/share/applications/$app
-	[ -e "/etc/skel/.oneslip/favicons/$favicon" ] && rm /etc/skel/.oneslip/favicons/$favicon
+	if [ -e "/etc/skel/.local/share/applications/$app" ]; then
+		rm /etc/skel/.local/share/applications/$app
+	fi
+	if [ -e "/etc/skel/.oneslip/favicons/$favicon" ]; then
+		rm /etc/skel/.oneslip/favicons/$favicon
+	fi
 }
 
 remove() {
