@@ -1,3 +1,9 @@
+oneslip-example-launchers (3) unstable; urgency=low
+
+  * Use ifs instead of direct tests, as they clash with the set -e of the postrm.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Mon, 19 Aug 2013 19:52:11 +0200
+
 oneslip-example-launchers (2) unstable; urgency=low
 
   * debian/postrm: added. It ensures that the applications
