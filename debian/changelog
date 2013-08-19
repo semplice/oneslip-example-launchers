@@ -1,3 +1,10 @@
+oneslip-example-launchers (2) unstable; urgency=low
+
+  * debian/postrm: added. It ensures that the applications
+    are removed from skel even on normal removal.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Mon, 19 Aug 2013 11:48:20 +0200
+
 oneslip-example-launchers (1) unstable; urgency=low
 
   * Initial release.
