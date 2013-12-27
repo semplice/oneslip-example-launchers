@@ -4,5 +4,5 @@ Name=Tetris
 Exec=oneslip http://htmltetris.com 500x600 Tetris
 Terminal=false
 Type=Application
-Icon=~/.oneslip/favicons/htmltetris.com.png
+Icon=quadrapassel
 Categories=Application;Game;
