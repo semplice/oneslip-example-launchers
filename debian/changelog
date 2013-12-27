@@ -1,3 +1,9 @@
+oneslip-example-launchers (5) unstable; urgency=low
+
+  * Use quadrapassel's icon for the Tetris example launcher.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Fri, 27 Dec 2013 14:10:55 +0100
+
 oneslip-example-launchers (4) unstable; urgency=low
 
   * As alan now properly expands icons path, we can use the
